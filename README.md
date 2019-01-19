@@ -2,6 +2,8 @@
 
 Collection of some of the models trained by [Project Prodigy](https://github.com/RayDiab/Prodigy)
 
+Make sure to have [Git LFS](https://git-lfs.github.com/) installed before cloning the repository.
+
 - `jazzy.xml`: trained on two short pieces of Bach, gets stuck into a cycle during prediction, 512 hidden units. `rho = 5`
 - `easybach.xml`: trained on a collection of Bach's works with simple combination of notes, 256 hidden units. Also the model used in the GUI in Project Prodigy. `rho = 20`
 - `512easy.xml`: trained on the same collection of Bach's works as above, with 512 hidden units. `rho = 5`
